@@ -1,0 +1,128 @@
+﻿.corporate-footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #333333;
+    color: #fff;
+    height: auto;
+}
+
+.footer-top-space {
+    height: 10vh;
+}
+
+.footercolheader {
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+    padding-bottom: 15px;
+}
+
+.footercoltitle {
+    height: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footercollang {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.corpweb--header--divider-block {
+}
+
+.corpweb--header--divider {
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+}
+
+.footercontent {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.social-icons {
+    padding: 30px 0;
+}
+
+.social-icon {
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.footer-column-small {
+    display: none;
+}
+
+.grid-block {
+    /*border:1px inset lime;*/
+}
+
+.f-accordion {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.f-accordion-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #424242;
+}
+
+.f-accordion-section-title {
+    width: 100%;
+    display: flex;
+    transition: all linear 0.15s;
+    text-decoration: none;
+    color: inherit;
+    height: auto;
+}
+
+    .f-accordion-section-title:hover, .f-accordion-section-title:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .f-accordion-section-title.active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.f-accordion-section-content {
+    display: none;
+}
+
+    .f-accordion-section-content.open {
+        padding: 10px 0;
+    }
+
+.f-accordion .ion-ios-arrow-right {
+    display: none;
+}
+
+@media only screen and (max-width: 75em) {
+    .corporate-footer {
+        padding: 30px;
+    }
+
+    .footer-column-large {
+        display: none;
+    }
+
+    .footer-column-small {
+        display: flex;
+    }
+
+    .f-accordion .ion-ios-arrow-right {
+        display: inline;
+        margin: 0 10px;
+        font-size: initial;
+    }
+
+    .f-accordion .link-item {
+        margin: 0;
+        padding: 5px 0;
+    }
+}

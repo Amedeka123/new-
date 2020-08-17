@@ -1,0 +1,414 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Responsive */
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 750px) and (max-width: 980px) {
+  #promotion .text h1 {
+    font-size: 32px;
+  }
+  #promotion .text h4 {
+    font-size: 20px;
+  }
+  #promotion .likeh1 {
+    font-size: 28px;
+  }
+  /* For use in EXPERIMENT Frontpage9krOfffer */
+  
+  #domain-offer h4 {
+    margin-top: 55px;
+    font-size: 18px;
+  }
+  #domain-offer p {
+    font-size: 16px;
+  }
+  #domexp #promotion .text-3 {
+    padding-top: 0px;
+  }
+  #domexp #promotion #domoffer h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  #domexp #promotion h1 {
+    line-height: 40px;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .tablet-block {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  #tab-menu ul#tab-menu_tabs li {
+    font-size: 18px !important;
+  }
+  #tab-menu ul#tab-menu_tabs li a i {
+    margin-right: 10px;
+  }
+  #slider {
+    width: 255px;
+  }
+  .bx-wrapper .bx-prev,
+  .bx-wrapper .bx-next {
+    top: 65px;
+  }
+  .bx-wrapper .bx-prev {
+    left: -20px;
+  }
+  .bx-wrapper .bx-next {
+    right: -20px;
+  }
+  /* Promotion  */
+  
+  #promotion .text {
+    padding: 20px 15px 0;
+  }
+  /* Benefits */
+  
+  #benefits .squares {
+    background: none;
+  }
+  #benefits .squares .square_tl,
+  #benefits .squares .square_bl,
+  #benefits .squares .square_tr,
+  #benefits .squares .square_br {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  #benefits .squares .square_tl .photo,
+  #benefits .squares .square_bl .photo,
+  #benefits .squares .square_tr .photo,
+  #benefits .squares .square_br .photo {
+    float: left;
+    width: 35%;
+    margin-right: 10px;
+  }
+  #benefits .squares .square_tl .body,
+  #benefits .squares .square_bl .body,
+  #benefits .squares .square_tr .body,
+  #benefits .squares .square_br .body {
+    padding: 0;
+  }
+  #benefits .squares .btn {
+    clear: both;
+    position: static;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 979px) {
+  .ui-ssl-login span.ss-login-error {
+    margin: 0;
+  }
+  #tab-menu .tab-content .tab-pane .button .btn.btn-large {
+    top: 0;
+    margin-top: 10px;
+    height: 30px;
+    min-width: 80px;
+    line-height: 30px;
+    font-size: 17px;
+  }
+  #tab-menu .tab-content .tab-pane .photo {
+    margin-bottom: 10px;
+  }
+}
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+  .block-content {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  #loginBox {
+    margin: 0 10px;
+  }
+  .block-photo {
+    float: left;
+    margin-right: 3.75%;
+    margin-bottom: 10px;
+  }
+  #tab-menu .tab-content .tab-pane {
+    display: block !important;
+  }
+  #tab-menu .tab-content .tab-pane .i-32 {
+    float: left;
+    margin: -7px 7px 0 0;
+  }
+  #header {
+    position: relative;
+    z-index: 1;
+  }
+  #header .container {
+    min-height: 40px;
+    *zoom: 1;
+  }
+  #header .container:before,
+  #header .container:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  #header .container:after {
+    clear: both;
+  }
+  #header .container #logo,
+  #header .container #msnLogoRight {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+  }
+  #header .container #logo a,
+  #header .container #msnLogoRight a {
+    display: block;
+    width: 175px;
+    height: 25px;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  #header .container #msnLogoRight {
+    left: auto;
+    right: 0;
+  }
+  #header .container #msnLogoRight a {
+    width: 122px;
+  }
+  #header .container .headercontainer {
+    min-height: 40px;
+    *zoom: 1;
+  }
+  #header .container .headercontainer:before,
+  #header .container .headercontainer:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  #header .container .headercontainer:after {
+    clear: both;
+  }
+  #header .container ul.menu li a {
+    line-height: 58px;
+  }
+  /* Promotion  */
+  
+  #promotion {
+    height: 142px;
+  }
+  #promotion .container {
+    height: 142px;
+  }
+  #promotion #mascot-big {
+    background: url("/images/frontPage/mascot_mobile.png") no-repeat 0 0 scroll transparent;
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+    width: 164px;
+    height: 209px;
+  }
+  #promotion .text {
+    padding: 20px 15px 0;
+    left: auto;
+    right: 0;
+  }
+  #promotion .text h1 {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  #promotion .text .likeh1 {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  #promotion .btn.btn-large {
+    top: 0;
+    margin-top: 10px;
+    height: 30px;
+    min-width: 80px;
+    line-height: 30px;
+    font-size: 17px;
+  }
+  /* For use in EXPERIMENT Frontpage9krOfffer */
+  
+  #domain-offer h4 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #domain-offer p {
+    font-size: 16px;
+  }
+  #tab-menu {
+    padding-top: 0;
+  }
+  #footer-placeholder {
+    height: 230px;
+  }
+  #footer {
+    height: 230px;
+    margin-top: -230px;
+  }
+  #footer .footer-top {
+    padding-left: 15px;
+  }
+  #footer ul li {
+    line-height: 30px !important;
+  }
+  /* Benefits */
+  
+  #benefits .squares {
+    background: none;
+  }
+  #benefits .squares .square_tl,
+  #benefits .squares .square_bl,
+  #benefits .squares .square_tr,
+  #benefits .squares .square_br {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  #benefits .squares .square_tl .photo,
+  #benefits .squares .square_bl .photo,
+  #benefits .squares .square_tr .photo,
+  #benefits .squares .square_br .photo {
+    float: left;
+    width: 35%;
+    margin-right: 10px;
+  }
+  #benefits .squares .square_tl .body,
+  #benefits .squares .square_bl .body,
+  #benefits .squares .square_tr .body,
+  #benefits .squares .square_br .body {
+    padding: 0;
+  }
+  #benefits .squares .btn {
+    clear: both;
+    position: static;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  #it-is-easy .list > .item .num,
+  #milestonesV2 .list > .item .num {
+    background: url("/images/frontPage/num_mobile.png") no-repeat scroll 0 0 transparent;
+    width: 30px;
+    height: 30px;
+    margin: 5px auto 0;
+    line-height: 30px;
+    font-size: 14px;
+  }
+}
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+  h1 {
+    margin-bottom: 10px;
+    line-height: 18px !important;
+    font-size: 18px;
+  }
+  .likeh1 {
+    margin-bottom: 10px;
+    line-height: 18px !important;
+    font-size: 18px;
+  }
+  h3 {
+    margin-bottom: 0;
+    line-height: 16px;
+    font-size: 16px;
+    color: #393939;
+  }
+  h5 {
+    margin-bottom: 10px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #393939;
+  }
+  blockquote:before {
+    background: url("/images/frontPage/quotes_mini.png") no-repeat scroll 0 0 transparent;
+    width: 17px;
+    height: 13px;
+  }
+  blockquote:after {
+    background: url("/images/frontPage/quotes_mini.png") no-repeat scroll 0 -13px transparent;
+    width: 17px;
+    height: 13px;
+    bottom: -13px;
+  }
+  .group {
+    margin-bottom: 10px;
+  }
+  .content-block {
+    margin-bottom: 25px;
+  }
+  #testimonials .photo {
+    width: 37.5%;
+  }
+  #milestones {
+    margin-bottom: 15px;
+  }
+  #milestones .container {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  #milestones .container h4 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  #milestones .container .date h1 {
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  #tab-menu {
+    padding-top: 0;
+  }
+  #tab-menu .image {
+    margin-bottom: 15px;
+  }
+  #tab-menu h2 {
+    margin-bottom: 10px;
+    line-height: 22px;
+  }
+}
+/* 320px */
+
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}

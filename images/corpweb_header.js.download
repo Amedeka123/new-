@@ -1,0 +1,109 @@
+﻿
+// ------------------------------------------------------------------------
+// Used for controlling the haze effect on the header:
+// ------------------------------------------------------------------------
+
+$(function () {
+    var scrollElm = $('.grid-block.header');
+    h = scrollElm.height();
+    var links = $('.link a');
+    var btnLogin = $('.start-button-menu');
+    var btnLang = $('.currentlanguagemobile span');
+    var globewhite = $('.globe-white');
+    var globegrey = $('.globe-grey');
+    var burger = $('.ion-navicon');
+    var loginClose = $('.login-close a');
+
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > h) {
+            $(scrollElm).css('background', 'rgba(255,255,255,0.97)');
+            $(scrollElm).css('box-shadow', '0px 2px 7px 0px rgba(0,0,0,0.49)');
+            $(links).css('color', '#444');
+            $(btnLogin).css('color', '#444');
+            $(btnLogin).css('border-color', '#444');
+            $(btnLang).css('color', '#444');
+            $(burger).css('color', '#444');
+            $(globewhite).css('display', 'none');
+            $(globegrey).css('display', 'flex');
+            $(loginClose).css('color', '#444');
+        }
+        else {
+            $(scrollElm).css('background', 'rgba(255,255,255,0)');
+            $(scrollElm).css('box-shadow', 'none');
+            $(links).css('color', '#fff');
+            $(btnLogin).css('color', '#fff');
+            $(btnLogin).css('border-color', '#fff');
+            $(btnLang).css('color', '#fff');
+            $(burger).css('color', '#fff');
+            $(globewhite).css('display', 'flex');
+            $(globegrey).css('display', 'none');
+            $(loginClose).css('color', '#fff');
+        }
+    })
+});
+
+
+
+// ------------------------------------------------------------------------
+// Used for controlling sidebar menus:
+// ------------------------------------------------------------------------
+
+$(function () {
+    var mobileNavVisible = false;
+    var mobileLangVisible = false;
+    var handledNav = false;
+    var handledLang = false;
+
+    $(".toggleMobilePageMenu").bind('touchstart click', function (e) {
+        if (e.type == "touchstart") {
+            handledNav = true;
+            toggleMobilePageMenu();
+        }
+        else if (e.type == "click" && !handledNav) {
+            toggleMobilePageMenu();
+        }
+        else {
+            handledNav = false;
+        }
+    });
+
+    $(".toggleMobileLangMenu").bind('touchstart click', function (e) {
+        if (e.type == "touchstart") {
+            handledLang = true;
+            toggleMobileLangMenu();
+        }
+        else if (e.type == "click" && !handledLang) {
+            toggleMobileLangMenu();
+        }
+        else {
+            handledLang = false;
+        }
+    });
+
+    function toggleMobilePageMenu() {
+        mobileNavVisible = !mobileNavVisible;
+
+        if (mobileNavVisible) {
+            mobileLangVisible = false;
+            $('.lang-menu').removeClass('show');
+            $('.burger-menu').addClass('show');
+            $('.burger-menu').css('z-index', '3');
+        } else {
+            $('.burger-menu').removeClass('show');
+        }
+    }
+
+    function toggleMobileLangMenu() {
+        mobileLangVisible = !mobileLangVisible;
+
+        if (mobileLangVisible) {
+            mobileNavVisible = false;
+            $('.burger-menu').removeClass('show');
+            $('.lang-menu').addClass('show');
+            $('.lang-menu').css('z-index', '3');
+        } else {
+            $('.lang-menu').removeClass('show');
+        }
+    }
+});

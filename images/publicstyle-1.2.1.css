@@ -1,0 +1,1706 @@
+/* Generel */
+body{background-color:#fff;font-family:"Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;font-size:12px;}
+td{font-family:'Trebuchet MS';font-size:12px;}	
+a{
+	color:#B40000;
+	/* text-decoration:none; */
+	font-style: normal;
+}
+
+a:hover{
+	font-weight:normal;
+	color:#FF0000;
+}
+	
+body td BIG{font-size:11px;font-weight:bold;line-height:19px;}
+body td STRONG{font-size:11px;font-weight:bold;line-height:17px;}
+body td SMALL{font-size:11px;color:#660000;line-height:15px;}
+.pageCenterWrapper {
+	background-color: #f4f4f4;
+}
+.pageCenterHolder {
+	position: relative;
+	width: 796px;
+	margin: 0 auto;
+	padding: 20px 0 50px;
+	overflow: hidden;
+}
+.familywebsite_container {
+	overflow: hidden;
+}
+
+.logocell a.logoimage_link
+{
+	display: block;
+	width: 164px; height: 43px;
+	margin: 7px 0 0 20px;
+}
+.logocell a.logoimage_link img 
+{
+	margin: 0;
+	border: none;
+}
+.logocell td p 
+{
+	margin: 0;
+}
+
+a.topbutton{
+	width: 110px; height: 30px;
+	text-indent: -9999px;
+	display: block;
+	background-position: left bottom;
+	outline-style: none;
+}
+
+
+.albumpic 
+{
+	position: relative;
+}
+		
+.knaplinks {
+	FONT-SIZE: 10px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 16px;
+	font-style: normal;
+}
+.knaplinksSel {
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 16px;
+	font-style: normal;
+}
+.content {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 12pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.contentNarrow {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 10pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.contentBig {
+	font-family: "Trebuchet MS";
+	font-size: 13pt;
+	font-style: normal;
+	line-height: 16pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+td.content {
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+.contentLinkGreen {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: 10pt;
+	color: #669966;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.contentHeader {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 12pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.header {
+	font-size:26px;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+.salesHeader {
+	font-size:26px;
+	color: #0063A4;
+	font-weight: bold;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+.SubHeader {
+	font-size:17px;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+}
+.birtdaytext_renew_subscription {
+    display: block;
+    padding-top: 6px;
+}
+.headerBlue {
+	font-size:22px;
+	line-height:normal;
+	color: #0063A4;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.SubHeaderBlue {
+	font-size:17px;
+	line-height:normal;
+	color: #0063A4;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+}
+.SubHeaderRed {
+	font-size:13pt;
+	line-height:normal;
+	color: #CC0000;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.SubSubHeader {
+	font-size:10pt;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.SubSubHeaderBlue {
+	font-size:10pt;
+	line-height:normal;
+	color: #0063A4;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.SubSubHeaderRed {
+	font-size:10pt;
+	line-height:normal;
+	color: #CC0000;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.SubSubHeaderGreen {
+	font-size:10pt;
+	line-height:normal;
+	color: #006600;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.SubHeaderWhite {
+	font-size:14pt;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+.condHeader {
+	font-size:10pt;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.condSubHeader {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 12pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+.condBody {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 12pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	padding-bottom: 9px;
+}
+.contentWhite {
+
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 11pt;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.RedHeader {
+	font-size:26px;
+	line-height:normal;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: #CC0000;
+}
+.BoldContent {
+
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 12pt;
+	color: #000000;
+	font-weight: bold;
+}
+.Emphasized {
+	color:Red;
+}
+.EmphasizedMild {
+	color:#b40000;
+}
+.HPGreen {
+	color: #006600;
+}
+.MiniContent {
+
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 10pt;
+	color: #000000;
+	font-weight: normal;
+}
+.MiniContentLink {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: 10pt;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+.knaplinksDown {
+
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 16px;
+	font-style: normal;
+}
+.contentRightBar {
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	font-style: normal;
+	line-height: 16px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+.contentRightBarHeader {
+
+
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: 10pt;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.staticContentWrapper {
+	width: 736px; overflow: hidden;
+}
+
+.tourRightBox
+{
+	border: #CEBD9C 2px solid;
+	background-color:#F1E8CE;
+	padding:5px;
+}
+
+.tourProgress
+{
+	color:#B40000;
+	font-size:10pt;
+	padding-bottom:20px;
+}
+
+a .siteVerEdit
+{
+	color:#000000;
+	text-decoration:none;
+	BACKGROUND-COLOR:Yellow;
+	font-weight:normal;
+}
+
+a:hover .siteVerEdit
+{
+	color:#FFFFFF;
+	text-decoration:none;
+	BACKGROUND-COLOR:Teal;
+	font-weight:normal;
+}
+
+
+/**  BUILDER CSS (Added by Aslak... So sue me  )  */ 
+
+.richTbl 
+{
+	width:100%;
+	table-layout:auto;
+	border: #B2D0E4 1px solid;
+	background-color:#F2F7FA;
+	padding:10px;
+}
+
+.richTblShort {
+	width:670px;
+}
+
+.richTbl td {
+
+}
+
+table {
+	color: #000000;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+td {
+	color: #000000;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.cvTbl td {
+	color: #000000;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 17px;
+}
+
+.mainTbl {
+	width:763px;
+	table-layout: auto;
+}
+
+.masterTbl {
+	width:736px;
+	table-layout:auto;
+}
+
+.topLeftSpace {
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.topRightSpace {
+	margin-right:20px;
+}
+
+.bygTbl {
+	width:100%;
+	table-layout:auto;
+	border: #B2D0E4 1px solid;
+	background-color:#F2F7FA;
+}
+
+.bygTbl td {
+	padding:10px;
+}
+
+.bygTblShort {
+	width:665px;
+}
+
+.butikTbl td {
+	padding:0px;
+}
+
+.butikInput {
+	width:222px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.butikTextarea {
+	width:222px;
+	height:308px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.sendlinkTextarea {
+	width:350px;
+	height:170px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.SendLinkPreviewTbl {
+	table-layout:auto;
+	border: #B2D0E4 1px solid;
+	background-color:#F2F7FA;
+}
+
+.SendLinkPreviewTbl td {
+	padding:10px;
+}
+
+.uddTblTop {
+	width:106px;
+	table-layout:auto;
+	border: #B2D0E4 1px solid;
+	background-color:#0063A4;
+	border-bottom:none;
+}
+
+.uddTblTop td {
+	padding:10px;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+.inputByg {
+	width:232px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position:absolute;
+	margin-top:-2px;
+	left:277px;
+}
+
+.inputGaest {
+	width:150px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+}
+
+.textareaByg {
+	padding-bottom:100px;
+	border: #ff0000 1px solid;
+}
+
+.textareaGaest {
+	width:395px;
+	height:72px;
+	border:1px solid #B2D0E4;
+	background-color:#ffffff;
+	font-size:12px;
+	font-family:"Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+.skabelonTxtTbl {
+	width:100px;
+}
+
+.skabelonTxtTbl td {
+	padding:0px;
+}
+
+.vinTdRoed {
+	background-color: #960018;
+	padding:8px;
+}
+
+.vinTdGron {
+	background-color: #7AAC62;
+	padding:8px;
+}
+
+.familieTbl td{
+	font-family:Times New Roman;
+	font-size:10px;
+}
+
+.bifTblSort td{
+	color:#ffffff;
+}
+
+.billedTbl td {
+	padding:1px;
+}
+
+.ditBilledTbl td {
+	padding:0px;
+}
+
+/* ----- tabeller slut ----- */
+
+
+/* ----- bg start ----- */
+
+.bgGen01 {
+	background-color: #BDDCD0;	
+}
+
+.bgGen02 {
+	background-color: #FFA200;
+}
+
+.bgGen03 {
+	background-color: #FF94D3;	
+}
+
+.bgGen04 {
+	background-color: #0096FF;	
+}
+
+ /* baby start */
+ 
+ .babyBrunBgMain {
+	background-color:#C8A46E;
+}
+
+.babyBrunBgContent {
+	background-color:#FAE0B0;
+}
+
+.babyBrunBgSpacer {
+	background-color:#C3AF96;
+	padding-top:10px;
+}
+ 
+.babyGronBgMain {
+	background-color:#A9D46D;
+}
+
+.babyGronBgContent {
+	background-color:#0D671A;
+}
+
+.babyGronBgSpacer {
+	background-color:#009F62;
+	padding-top:10px;
+}
+
+.babyBlaaBgMain {
+	background-color:#89B2C8;
+}
+
+.babyBlaaBgContent {
+	background-color:#0A2DA0;
+}
+
+.babyBlaaBgSpacer {
+	background-color:#CCCCCC;
+}
+
+.babyPinkBgMain {
+	background-color:#FF98D0;
+}
+
+.babyPinkBgContent {
+	background-color:#980053;
+}
+
+.babyPinkBgSpacer {
+	background-color:#E2007F;
+}
+
+.babyBallonBgMain {
+	background-color:#0A2DA0;
+}
+
+.babyBallonBgContent {
+	background-color:#F0A71C;
+}
+
+.babyBallonBgSpacer {
+	background-color:#0D671A;
+}
+
+.vertSpacer {
+	padding:5px;
+}
+
+ /* baby slut */
+
+.havenBgGronTop {
+	background-color:#004B2C;
+}
+
+.havenBgGronMain {
+	background-color:#D3EACE;
+}
+
+.havenBgGraaMain {
+	background-color:#a2a2a2;
+}
+
+/* ----- bg slut ----- */
+
+/* ---- txt start ----- */
+
+.chkboxTxt {
+	position:absolute;
+	left:540px;
+}
+
+.inputChkbox {
+	position:absolute;
+	margin-top:-2px;
+	left:515px;
+}
+
+.inputBygTxt {
+	color:#0063A4;
+	font-weight:bold;
+}
+
+.header {
+	font-size:26px;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.headerLarge {
+	font-size:36px;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.inviHeader {
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.inviSubHeader {
+	font-size:12px;
+}
+
+.menuRetter {
+	font-size:13px;
+	font-weight:bold;
+}
+
+.txtLimit {
+	padding-right:40px;
+}
+
+.txtLimit20 {
+	padding-right:20px;
+}
+
+.menuTxt {
+	font-size:10px;
+}
+
+.dagbogTopLine {
+	font-size:18px;
+	color:#ffffff;
+}
+
+.dagbogTopOrangeHvid {
+	font-size:18px;
+	color:#F0A71C;
+}
+
+.dagbogTopPinkLine {
+	font-size:18px;
+	color:#ffffff;
+	font-style:italic;
+}
+
+.dagbogTopLineSortGron {
+	font-size:18px;
+	font-family:Times New Roman;
+}
+
+.dagbogTopLineOrange {
+	font-size:18px;
+	color:#F0A71C;
+	font-style:italic;
+}
+
+.dagbogBrunSubheader {
+	font-size:18px;
+	color:#6D4D2E;
+}
+
+.dagbogBrunSubheaderSortGron {
+	font-size:18px;
+	font-family:Times New Roman;
+	color:#0D671A;
+}
+
+.dagbogSortSubheader {
+	font-size:18px;
+}
+
+.dagbogBordeauxSubheader {
+	font-size:18px;
+	color:#960018;
+	font-family:Times New Roman;
+}
+
+.dagbogBlomstBordeauxSubheader {
+	font-size:18px;
+	color:#960018;
+}
+
+.dagbogHvidBordeauxSubheader {
+	font-size:18px;
+	color:#960018;
+	font-family:Times New Roman;
+}
+
+.dagbogPinkSubheader {
+	font-size:18px;
+	color:#E2007F;
+}
+
+.dagbogTxtStart {
+	padding-top:15px;
+}
+
+.txtBlok {
+	padding-right:20px;
+}
+
+.fontTimes {
+	font-family:Times New Roman;
+}
+
+.rejsedagbogArial {
+	font-family:Arial;
+	font-size:18px;
+	color:#F0A71C;
+	font-style:italic;
+}
+
+.vinHeaderRoed {
+	color:#960018;
+	font-weight:bold;
+}
+
+.vinHeaderGron {
+	color:#457B2B;
+	font-weight:bold;
+}
+
+.opskriftBrunBg {
+	background-color:#6D4D2E;
+}
+
+.opskriftGronBg {
+	background-color:#AFBDA5;
+}
+
+.opskriftGronHeader {
+	color:#0D671A;
+	font-size:18px;
+}
+
+.opskriftSubHeaderRoed {
+	color:#960018;
+	font-style:italic;
+}
+
+.opskriftRoedTxt {
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+
+.havenHeaderGron {
+	font-size:18px;
+	color:#004B2C;
+}
+
+.havenHeaderGraa {
+	font-size:18px;
+	color:#888888;
+}
+
+.havenHeaderOrange {
+	font-size:18px;
+	color:#F0A71C;
+}
+
+.havenHeaderBrun {
+	font-size:18px;
+	color:#A3937E;
+}
+
+.barnetTxtBlaa {
+	color:#0A2DA0;
+}
+
+.billedTxt {
+	font-size:10px;
+}
+
+.familieHeaderBrun {
+	color:#FAE0B0;
+}
+
+.familieTxtBrun {
+	color:#6D4D2E;
+}
+
+.bifLink {
+	color:#F8C201;
+}
+
+.juleHeader {
+	font-weight:bold;
+	font-style:italic;
+	font-size:40px;
+}
+
+.gaesteBogHeader {
+	font-size:14;
+	font-weight:bold;
+}
+
+/* ---- txt slut ----- */
+
+.inputBobbel {
+	width:240px;
+	border: #B2D0E4 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.inputLogin {
+	width:161px;
+	border: #EC9800 1px solid;
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.builderMenuBtn {
+	position:relative;
+	top:4px;
+}
+
+.10spacer {
+	padding-left:10px;
+}
+
+.15spacer {
+	padding-left:15px;
+}
+
+.40spacer {
+	padding-left:40px;
+}
+
+.20spacer {
+	padding-left:20px;
+}
+
+.20horVertSpacer {
+	padding:20px;
+}
+
+.opskriftSpacer {
+	padding-left:26px;
+}
+
+.opskriftTxtSpacer {
+	padding-left:11px;
+}
+
+.rightSpacer {
+	padding-right:20px;
+}
+
+.menuPlace {
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.babyTxt {
+	padding-left:120px;
+	padding-right:120px;
+}
+
+.onskeTxt {
+	padding-left:60px;
+	padding-right:60px;
+}
+
+.babyTxtBrun {
+	color:#755926;
+}
+
+.babyTxtGroen {
+	color:#A9D46D;
+}
+
+.babyTxtPink {
+	color:#FF98D0;
+}
+
+.babyTxtBallon {
+	color:#E2007F;
+}
+
+.babyTxtHvid {
+	color:#ffffff;
+}
+
+.babyTxtBlaa {
+	color:#89B2C8;
+}
+
+.picHeaderPlacement {
+	margin-top:-6px;
+}
+
+.horSpacer {
+	padding-left:10px;
+}
+
+.pageSpace {
+	padding:20px;
+}
+
+.vinBgColorBrun {
+	background-color:#FAE0B0;
+}
+
+.panelPlace {
+	position:absolute;
+	margin-top:-11px;
+	left:690px;
+}
+
+.picUplPlace {
+	position:absolute;
+	margin-top:0px;
+	left:151px;
+}
+
+.bobbelPlace {
+	position:absolute;
+	margin-top:10px;
+	left:45px;
+}
+
+.elementSpace {
+	padding-bottom:40px;
+}
+
+.halfLineSpace {
+	padding-bottom:5px;
+}
+
+.oneLineSpace {
+	padding-bottom:10px;
+}
+
+.twoLineSpace {
+	padding-bottom:20px;
+}
+
+.topLeftSpace {
+	padding-left:5px;
+	padding-top:5px;
+}
+
+.mainContentTblSpace {
+	padding-right:5px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+#sortLink {
+	color:#000000;
+}
+#orangeLink {
+	color:#F0A71C;
+}
+#brunLink {
+	color:#6D4D2E;
+}
+#hvidLink {
+	color:#ffffff;
+}
+#hipLink {
+	color:#5B3714;
+}
+#rodLink {
+	color:#B40000;
+}
+.woodHeader {
+	font-size:26px;
+	color:#ffffff;
+	font-family:Times New Roman, serif;
+}
+
+.woodSubHeader {
+	font-size:20px;
+	color:#ffffff;
+	font-family:Times New Roman, serif;
+}
+
+
+.greenHeader {
+	color:#bbbb2f;
+}
+.blueHeader {
+	color:#3399cc;
+}
+.darkOrangeHeader {
+	color:#ff6600;
+}
+.lightOrangeHeader {
+	color:#ff9900;
+}
+.redHeader {
+	color:#d70000;
+}
+
+.whiteUnderLine {
+	border-bottom:2px solid #ffffff;
+	margin-bottom:8px;
+	margin-top:5px;
+}
+/* Free Text Box Styles */
+.cmpRichText1_OuterTable {
+	width: 489px;
+	background-color: #9EBEF5;
+}
+#cmpRichText1_toolbarArea select {
+	margin: 0px;
+	padding: 0px;
+	font: 14px "Trebuchet MS",Tahoma,Verdana,sans-serif;
+}
+.cmpRichText1_HtmlBox {
+	scroll: auto;
+	font-family: Courier New, Courier;
+	padding: 4px;
+	border-right: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+}
+.cmpRichText1_DesignBox {
+	background-color: #FFFFFF;
+	border: 0; 
+	frameBorder: 0; 
+	border-right: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+}
+.cmpRichText1_DesignBox body {
+	background-color: black;
+}
+.cmpRichText1_Toolbar {
+	margin-bottom: 1px; 
+	margin-right: 2px;
+	float: left;
+	
+}
+.cmpRichText1_Button_Off_Out {
+	padding: 1px; 
+	background-color: transparent;
+}
+.cmpRichText1_Button_Off_Over {
+	
+	padding: 0px;
+	border-top: 1px solid #000080;	
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+	border-bottom: 1px solid #000080;  
+	background-color: #FFF4CC;
+	
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFF4CC', EndColorStr='#FFFFD091');
+}
+.cmpRichText1_Button_On_Out {
+	
+	padding: 0px;
+	border-top: 1px solid #000080;	
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+	border-bottom: 1px solid #000080;  
+	background-color: #FFD58C;
+	
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFD58C', EndColorStr='#FFFFAD55');
+}
+.cmpRichText1_Button_On_Over {
+	
+	padding: 0px;
+	border-top: 1px solid #000080;	
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+	border-bottom: 1px solid #000080;  
+	background-color: #FE914E;
+	
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFE914E', EndColorStr='#FFFFD38E');
+}
+
+
+.cmpRichText1_StartTabOn {
+	font: 10pt MS Sans Serif;
+	padding: 1px;
+	border-left: 1px solid #81A9E2;
+	border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #81A9E2;
+	background-color: #81A9E2;
+}
+.cmpRichText1_StartTabOff {
+	font: 10pt MS Sans Serif;
+	padding:1px;
+	border-left: 1px solid #81A9E2;
+	border-right: 1px solid #808080;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #81A9E2;
+	background-color: #81A9E2;
+}
+.cmpRichText1_TabOn {
+	font: 8pt MS Sans Serif;
+	padding:1px;
+	padding-left:5px;
+	padding-right:5px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #808080;
+	border-top: 1px solid #9EBEF5;
+	border-bottom: 1px solid #808080;
+	background-color: #9EBEF5;
+}
+.cmpRichText1_TabOffRight {
+	font: 8pt MS Sans Serif;
+	padding:1px;
+	padding-left:5px;
+	padding-right:5px;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #81A9E2;
+	background-color: #81A9E2;
+}
+.cmpRichText1_TabOffLeft {
+	font: 8pt MS Sans Serif;
+	padding:1px;
+	padding-left:5px;
+	padding-right:5px;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #9EBEF5;
+	background-color: #81A9E2;
+}
+.cmpRichText1_EndTab {
+	font: 10pt MS Sans Serif;
+	width: 100%;
+	padding:1px;
+	border-left: 1px solid #81A9E2;
+	border-right: 1px solid #81A9E2;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #81A9E2;
+	background-color: #81A9E2;
+}
+.cmpRichText1_AncestorArea {
+	
+	margin-left: 4px;
+}
+.cmpRichText1_AncestorArea a {
+	padding: 1px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid #808080;	
+	color: #000;
+	font-family: arial;
+	font-size: 11px;
+}
+.cmpRichText1_AncestorArea a:link, .cmpRichText1_AncestorArea a:visited, .cmpRichText1_AncestorArea a:active {
+	background-color: transparent;
+	text-decoration: none;
+}
+.cmpRichText1_AncestorArea a:hover {
+	text-decoration: none;
+	background-color: #316AC5;
+	border: 1px solid #fff;
+	color:#fff;
+}
+.cmpRichText1_Paragraph, .cmpRichText1_Color, .cmpRichText1_Size, .cmpRichText1_Font, .cmpRichText1_InsertHtml, .cmpRichText1_EmoticonMenu {
+	margin: 0px;
+	padding: 0px;
+	font: 14px "Trebuchet MS",Tahoma,Verdana,sans-serif;
+}
+
+/* ----- builder main banner start ------ */
+
+.domainintrooffermainbannerbuilder {
+	margin-bottom: 10px;
+}
+
+.domainintrooffermainbanner {
+	background: #b40000;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 8px 4px;
+	border: 1px #ec9800 solid;
+	line-height: 1.7em;
+}
+
+.domainintrooffermainbanner a {
+	color: #ec9800;
+}
+
+.domainintrooffermainbanner strong {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.domainintrooffermainbanner .linkstyle {
+	color: #ec9800;
+}
+
+/* ----- builder main banner end ------ */
+
+.albumImageEditControlLabel, .albumImageEditControlLabel:hover {
+	position: absolute;
+	top: 0; left: 30px;
+	width: 200px;
+	color: #000; font-size: 13px;
+	line-height: 22px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.newAlbumImageEditSaveBtn,
+.newAlbumImageEditSaveBtn:hover {
+	float: left;
+	height: 25px;
+	padding-left: 20px;
+	background: url(/images/fotoalbum/green_image_button.gif) no-repeat left 0;
+	color: #fff; font-size: 13px; font-weight: bold; text-decoration: none;
+}
+.newAlbumImageEditSaveBtn span {
+	display: block;
+	height: 25px;
+	padding-right: 20px;
+	background: url(/images/fotoalbum/green_image_button.gif) no-repeat right -25px;
+	line-height: 22px;
+	cursor: pointer;
+}
+.newAlbumImageEditSaveBtn:hover {
+	background-position: left -50px;
+}
+.newAlbumImageEditSaveBtn:hover span {
+	background-position: right -75px;
+}
+
+
+/* ----- Builder right panel show status ----- */
+.status_box {
+	margin-bottom: 18px;
+	background-color: #f1e8ce
+}
+.status_box .status_box_header {
+	position: relative;
+	padding: 3px 10px;
+	background-color: #e6d6a7;
+	border-style: solid; border-width: 1px 0; border-color: #fff;
+	font-size: 12px; font-weight: bold;
+}
+.status_box .status_box_header .status_box_close {
+	position: absolute;
+	top: 3px; right: 5px;
+	font-size: 12px; text-decoration: underline;
+	cursor: pointer;
+}
+.status_box .status_box_content {
+	padding: 10px 10px 35px;
+	background: #f1e8ce url(/images/status_box_content_bg.gif) repeat-x left bottom;
+}
+.status_box .status_box_content p {
+	margin: 0 0 10px 0;
+	font-size: 12px;
+}
+.status_box .status_box_content a {
+	font-size: 12px;
+}
+
+
+
+/* ----- builder SendLink banner------ */
+.send_link_box .send_link_image { border: solid 1px #fff; }
+.send_link_box .send_link_tip_img { vertical-align: bottom; }
+
+
+/* ----- builder plainn video upload ------ */
+.plainVideoUploadWrapper {
+	position: relative;
+	padding: 40px 0;
+	text-align: center;
+}
+.plainVideoUploadWrapper .plainVideoSelectWrapper {
+	
+}
+.plainVideoUploadWrapper h2 {
+	margin: 0 0 6px;
+	font-size: 14px;
+}
+.plainVideoUploadWrapper p {
+	margin: 0 0 6px;
+	font-size: 12px;
+}
+.plainVideoUploadWrapper .plainVideoButtons {
+	margin: 20px 0 15px;
+}
+.plainVideoUploadWrapper .plainVideoButtons table {
+	margin: 0 auto;
+}
+.plainVideoUploadWrapper .plainVideoButtons td {
+	vertical-align: top;
+}
+.plainVideoUploadWrapper .plainVideoButtons .selectVideoLink {
+	float: left;
+}
+.plainVideoUploadWrapper .plainVideoButtons object {
+	float: left;
+}
+
+.plainVideoUploadWrapper .uplodifyProgressWrapper {
+	display: none;
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	background-color: #fff;
+	text-align: center; font-size: 12px;
+}
+.plainVideoUploadWrapper .uplodifyProgressWrapperInner {
+	position: absolute;
+	top: 50%; left: 0;
+	width: 100%; height: 100px;
+	margin-top: -50px;
+}
+.plainVideoUploadWrapper .uplodifyProgressWrapper p {
+	margin: 12px 0;
+}
+.plainVideoUploadWrapper .uplodifyProgressWrapper .header {
+	margin: 14px 0;
+	font-size: 14px; font-weight: bold;
+}
+.plainVideoUploadWrapper .uploadifyQueue {
+	display: none;
+}
+.plainVideoUploadWrapper .uplodifyProgressBg,
+.plainVideoUploadWrapper .uplodifyProgress {
+	width: 230px; height: 12px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	text-align: left;
+}
+.plainVideoUploadWrapper .uplodifyProgressBg {
+	margin: 0 auto;
+	background-image: url(/Images/VideoUpload/Progressbar_white.gif);
+}
+.plainVideoUploadWrapper .uplodifyProgress {
+	width: 0;
+	background-image: url(/Images/VideoUpload/Progressbar_green.gif);
+}
+
+/* ----- builder activeX video upload ------ */
+.videoUploadBody {
+	background-color: #f2f7fa;
+}
+.videoUploadWrapper {
+	background-color: #fff;
+	border: solid 1px #cae2ed;
+}
+.addVideoHeadline {
+	float: left;
+	padding-bottom: 20px;
+	background-color: #f2f7fa;
+	font-size: 14px; font-weight: bold;
+}
+.addVideoCancel {
+	float: right;
+}
+.redValidatorText {
+	color: Red;
+}
+.redValidatorText.errorVisible {
+	display: block;
+	padding: 4px 0 12px;
+}
+
+.navigation-bottom-impl {
+    margin-bottom: 30px;
+}
+
+.subsshop-list-entry {
+    padding-left: 6px;
+}
+
+/* RTL custom */
+
+html[dir='rtl'] tr[align='left'] {
+	float: right;
+}
+
+html[dir='rtl'] #maincontentcell a.btn_std {
+	text-align: right;
+}
+
+html[dir='rtl'] #maincontentcell a.btn_std span {
+	padding-right: 4px;
+}
+
+html[dir='rtl'] .buildernavigation > li {
+	margin-right: unset;
+	margin-left: 20px;
+	float: right;
+}
+
+html[dir='rtl'] #usrUserMainBannerVersion2_pnlDomainQualifications a {
+	display: inline-block;
+}
+
+html[dir='rtl'] .sb_btn_std.sb_btn_blue_big.create_shop_btn {
+	float: left!important;
+}
+
+html[dir='rtl'] .add_page_btn {
+    float: right;
+}
+
+html[dir='rtl'] .page-icon, html[dir='rtl'] .page-title, html[dir='rtl'] .page-bar-buttons {
+	float: right;
+}
+
+html[dir='rtl'] .sort-handle {
+	float: left;
+}
+
+html[dir='rtl'] .newsubpage-area img {
+    float: right;
+    margin-left: 5px;
+}
+
+html[dir='rtl'] .add_page_btn img, html[dir='rtl'] .create_shop_btn img {
+    float: right;
+    display: block;
+	margin: 5px 0 0 5px;
+}
+
+html[dir='rtl'] .inputByg {
+	left: unset;
+	right: 277px;
+}
+html[dir='rtl'] .writeAddressHolder .rowHeadline, html[dir='rtl'] .speechBubbleHolder .rowHeadline {
+	float: right;
+	margin-right: 0;
+    margin-left: 100px;
+    line-height: 22px;
+}
+html[dir='rtl'] .writeAddressHolder input, html[dir='rtl'] .speechBubbleHolder input.tbxSpeechBubble {
+	float: right;
+}
+
+html[dir='rtl'] .inputBygTxt .info_map_name, html[dir='rtl'] .inputBygTxt .info_map_text {
+	right: 236px;
+}
+
+html[dir='rtl'] .status_box .status_box_header .status_box_close {
+	left: 5px;
+}
+
+/* RTL from the tool */
+
+  html[dir='rtl'] .logocell a.logoimage_link {
+    margin: 7px 20px 0 0; }
+  html[dir='rtl'] .topLeftSpace {
+    margin-right: 20px; }
+  html[dir='rtl'] .bygTbl td {
+    padding: 10px; }
+  html[dir='rtl'] .butikTbl td {
+    padding: 0px; }
+  html[dir='rtl'] .SendLinkPreviewTbl td {
+    padding: 10px; }
+  html[dir='rtl'] .uddTblTop td {
+    padding: 10px; }
+  html[dir='rtl'] .skabelonTxtTbl td {
+    padding: 0px; }
+  html[dir='rtl'] .billedTbl td {
+    padding: 1px; }
+  html[dir='rtl'] .ditBilledTbl td {
+    padding: 0px; }
+  html[dir='rtl'] .vertSpacer {
+    padding: 5px; }
+  html[dir='rtl'] .txtLimit {
+    padding-left: 40px; }
+  html[dir='rtl'] .txtLimit20 {
+    padding-left: 20px;
+    padding-right: auto; }
+  html[dir='rtl'] .txtBlok {
+    padding-left: 20px; }
+  html[dir='rtl'] .opskriftRoedTxt {
+    padding-right: 20px;
+    padding-left: 20px; }
+  html[dir='rtl'] .10spacer {
+    padding-right: 10px; }
+  html[dir='rtl'] .15spacer {
+    padding-right: 15px;
+    padding-left: auto; }
+  html[dir='rtl'] .40spacer {
+    padding-right: 40px;
+    padding-left: auto; }
+  html[dir='rtl'] .20spacer {
+    padding-right: 20px;
+    padding-left: auto; }
+  html[dir='rtl'] .20horVertSpacer {
+    padding: 20px;
+    padding-left: auto; }
+  html[dir='rtl'] .opskriftSpacer {
+    padding-right: 26px; }
+  html[dir='rtl'] .opskriftTxtSpacer {
+    padding-right: 11px;
+    padding-left: auto; }
+  html[dir='rtl'] .rightSpacer {
+    padding-left: 20px; }
+  html[dir='rtl'] .babyTxt {
+    padding-right: 120px;
+    padding-left: 120px; }
+  html[dir='rtl'] .onskeTxt {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-left: auto;
+    padding-right: auto; }
+  html[dir='rtl'] .horSpacer {
+    padding-right: 10px; }
+  html[dir='rtl'] .pageSpace {
+    padding: 20px;
+    padding-left: auto; }
+  html[dir='rtl'] .picUplPlace {
+    right: 151px; }
+  html[dir='rtl'] .bobbelPlace {
+    right: 45px; }
+  html[dir='rtl'] .topLeftSpace {
+    padding-right: 5px; }
+  html[dir='rtl'] #cmpRichText1_toolbarArea select {
+    margin: 0px;
+    padding: 0px; }
+  html[dir='rtl'] .cmpRichText1_HtmlBox {
+    padding: 4px; }
+  html[dir='rtl'] .cmpRichText1_DesignBox {
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-right: 0;
+    border-left: 0; }
+  html[dir='rtl'] .cmpRichText1_Button_Off_Out {
+    padding: 1px; }
+  html[dir='rtl'] .cmpRichText1_Button_Off_Over {
+    padding: 0px; }
+  html[dir='rtl'] .cmpRichText1_Button_On_Out {
+    border-right: 1px solid #000080;
+    border-left: 1px solid #000080;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_Button_On_Over {
+    border-right: 1px solid #000080;
+    border-left: 1px solid #000080;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_StartTabOn {
+    padding: 1px;
+    border-right: 1px solid #81A9E2;
+    border-left: 1px solid #FFFFFF;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_StartTabOff {
+    border-right: 1px solid #81A9E2;
+    border-left: 1px solid #808080;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_TabOn {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #808080;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_TabOffRight {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #808080;
+    padding-left: auto;
+    padding-right: auto;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_TabOffLeft {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #FFFFFF;
+    padding-left: auto;
+    padding-right: auto;
+    border-left: 0;
+    border-right: 0; }
+  html[dir='rtl'] .cmpRichText1_EndTab {
+    padding: 1px;
+    border-right: 1px solid #81A9E2;
+    border-left: 1px solid #81A9E2;
+    padding-left: auto;
+    padding-right: auto; }
+  html[dir='rtl'] .cmpRichText1_AncestorArea {
+    margin-right: 4px; }
+  html[dir='rtl'] .cmpRichText1_AncestorArea a {
+    padding: 1px;
+    margin-left: auto; }
+  html[dir='rtl'] .cmpRichText1_Paragraph,
+  html[dir='rtl'] .cmpRichText1_Color,
+  html[dir='rtl'] .cmpRichText1_Size,
+  html[dir='rtl'] .cmpRichText1_Font,
+  html[dir='rtl'] .cmpRichText1_InsertHtml,
+  html[dir='rtl'] .cmpRichText1_EmoticonMenu {
+    margin: 0px;
+    padding: 0px; }
+  html[dir='rtl'] .newAlbumImageEditSaveBtn,
+  html[dir='rtl'] .newAlbumImageEditSaveBtn:hover {
+    float: right;
+    padding-right: 20px; }
+  html[dir='rtl'] .status_box .status_box_header {
+    padding: 3px 10px; }
+  html[dir='rtl'] .status_box .status_box_header .status_box_close {
+    left: 5px; }
+  html[dir='rtl'] .status_box .status_box_content {
+    padding: 10px 10px 35px; }
+  html[dir='rtl'] .status_box .status_box_content p {
+    margin: 0 0 10px 0; }
+  html[dir='rtl'] .plainVideoUploadWrapper h2 {
+    margin: 0 0 6px; }
+  html[dir='rtl'] .plainVideoUploadWrapper .plainVideoButtons {
+    margin: 20px 0 15px; }
+  html[dir='rtl'] .plainVideoUploadWrapper .plainVideoButtons table {
+    margin: 0 auto; }
+  html[dir='rtl'] .plainVideoUploadWrapper .plainVideoButtons .selectVideoLink {
+    float: right; }
+  html[dir='rtl'] .plainVideoUploadWrapper .plainVideoButtons object {
+    float: right; }
+  html[dir='rtl'] .plainVideoUploadWrapper .uplodifyProgressWrapper p {
+    margin: 12px 0; }
+  html[dir='rtl'] .plainVideoUploadWrapper .uplodifyProgressWrapper .header {
+    margin: 14px 0; }
+  html[dir='rtl'] .plainVideoUploadWrapper .uplodifyProgressBg {
+    margin: 0 auto; }
+  html[dir='rtl'] .addVideoHeadline {
+    float: right; }
+  html[dir='rtl'] .addVideoCancel {
+    float: left; }
